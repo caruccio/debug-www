@@ -1,0 +1,4 @@
+#!/bin/bash
+set -ex
+docker build -t caruccio/debug-www .
+docker push caruccio/debug-www
